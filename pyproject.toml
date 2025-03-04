@@ -10,6 +10,8 @@ python = "^3.12"
 pre-commit = "^4.1.0"
 sqlalchemy = "^2.0.38"
 pydantic = "^2.10.6"
+fastapi = "^0.115.11"
+uvicorn = "^0.34.0"
 
 
 [build-system]
