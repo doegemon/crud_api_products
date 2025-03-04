@@ -8,6 +8,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pre-commit = "^4.1.0"
+sqlalchemy = "^2.0.38"
+pydantic = {extras = ["email"], version = "^2.10.6"}
+fastapi = "^0.115.11"
+uvicorn = "^0.34.0"
+psycopg2-binary = "^2.9.10"
 
 
 [build-system]
