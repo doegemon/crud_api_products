@@ -47,7 +47,7 @@ with st.expander("Add a New Product"):
                     "description": description,
                     "price": price,
                     "categoria": category,
-                    "email_fornecedor": vendor_email,
+                    "vendor_email": vendor_email,
                 },
                 timeout=20,
             )
