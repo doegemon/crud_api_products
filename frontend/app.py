@@ -11,7 +11,7 @@ def show_response_message(response):
     """
     Function that is used to show detailed error messages.
     """
-    if response.status == 200:
+    if response.status_code == 200:
         st.success("Operation successfully completed!")
     else:
         try:
